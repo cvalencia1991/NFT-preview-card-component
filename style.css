@@ -13,26 +13,33 @@ body {
   border-radius: 10px;
   width: 326px;
   height: 546px;
+  margin-top: 1em;
 }
-.container .nft {
-  padding: 1.4em;
-  font-weight: 400;
-}
-.container .nft .nftstyles {
+.container .nftimage {
   width: 278px;
   height: 269px;
+  left: 21px;
+  top: 10px;
   border-radius: 10px;
   background-image: url("./images/image-equilibrium.jpg");
-  background-size: contain;
+  background-size: cover;
+  position: relative;
 }
 .container .infocontainer {
   padding: 0px 1.4em;
   color: white;
 }
+.container .infocontainer .stylehead {
+  margin-top: 34px;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 24px;
+}
 .container .infocontainer .infonft {
   font-weight: 400;
   font-size: 17px;
   line-height: 23px;
+  color: #8BACD9;
 }
 .container .infocontainer .nftnumbers {
   display: flex;
@@ -52,8 +59,8 @@ body {
   font-weight: 400;
 }
 .container .infocontainer .line {
-  border: 1px solid #000000;
-  background: black;
+  border: 1px solid white;
+  background: white;
   margin-top: 20px;
 }
 .container .infocontainer .infoavatar {
@@ -76,10 +83,19 @@ body {
     top: 20%;
     width: 346px;
     height: 592px;
+    margin-top: 0;
   }
-  .container .nft .nftstyles {
-    width: 301px;
-    height: 303px;
+  .container .nftimage {
+    left: 0%;
+    top: 20px;
+  }
+  .container .infocontainer {
+    padding: 1.4em;
+    color: white;
+    margin: 7px;
+  }
+  .container .infocontainer .stylehead {
+    margin-top: 24px;
   }
   .container .infocontainer .nftnumbers {
     margin-top: 23px;
@@ -90,16 +106,24 @@ body {
   }
   .container .infocontainer .infoavatar {
     margin-top: 21px;
+    color: white;
+  }
+  .container .infocontainer .infoavatar .stylecreation {
+    color: #8BACD9;
   }
 }
-.nftstyles:active {
+.nftimage:active .backgroundeyebrow {
+  background-color: rgba(0, 200, 244, 0.3);
+  width: 278px;
+  height: 269px;
+  position: absolute;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
   background-image: url("./images/icon-view.svg");
-  background-size: contain;
-  background: red;
   background-repeat: no-repeat;
-  background-position: 50%;
-  opacity: 0.7;
-  z-index: 1;
+  background-position-x: 10px;
+  background-position-x: 50%;
+  background-position-y: 50%;
 }
 
 .stylenamenft:active, .stylehead:active {
