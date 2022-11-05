@@ -1,0 +1,23 @@
+{
+  "name": "nft-card",
+  "version": "1.0.0",
+  "description": "This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cvalencia1991/NFT-CARD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cvalencia1991/NFT-CARD/issues"
+  },
+  "homepage": "https://github.com/cvalencia1991/NFT-CARD#readme",
+  "devDependencies": {
+    "hint": "^7.1.3"
+  }
+}

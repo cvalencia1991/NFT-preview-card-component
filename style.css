@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background: #0D192B;
+}
+
+.container {
+  background: #14253D;
+  border: 1px solid none;
+  border-radius: 10px;
+  width: 326px;
+  height: 546px;
+}
+.container .nft {
+  padding: 1.4em;
+  font-weight: 400;
+}
+.container .nft .nftstyles {
+  width: 278px;
+  height: 269px;
+  border-radius: 10px;
+  background-image: url("./images/image-equilibrium.jpg");
+  background-size: contain;
+}
+.container .infocontainer {
+  padding: 0px 1.4em;
+  color: white;
+}
+.container .infocontainer .infonft {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 23px;
+}
+.container .infocontainer .nftnumbers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .infocontainer .nftnumbers .infonftnum {
+  display: flex;
+  color: #00FFF8;
+  gap: 5px;
+  font-weight: 400;
+}
+.container .infocontainer .nftnumbers .infonftclock {
+  display: flex;
+  color: #8BACD9;
+  gap: 5px;
+  font-weight: 400;
+}
+.container .infocontainer .line {
+  border: 1px solid #000000;
+  background: black;
+  margin-top: 20px;
+}
+.container .infocontainer .infoavatar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 1em;
+}
+.container .infocontainer .infoavatar .styleavatar {
+  width: 33px;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    width: 346px;
+    height: 592px;
+  }
+  .container .nft .nftstyles {
+    width: 301px;
+    height: 303px;
+  }
+  .container .infocontainer .nftnumbers {
+    margin-top: 23px;
+  }
+  .container .infocontainer .infonft {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .container .infocontainer .infoavatar {
+    margin-top: 21px;
+  }
+}
+.nftstyles:active {
+  background-image: url("./images/icon-view.svg");
+  background-size: contain;
+  background: red;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.stylenamenft:active, .stylehead:active {
+  color: #00FFF8;
+}/*# sourceMappingURL=style.css.map */
