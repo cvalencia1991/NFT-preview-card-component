@@ -1,20 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
 * {
   font-family: "Outfit", sans-serif;
 }
 
 body {
-  background: #0D192B;
+  background: #0d192b;
 }
 
 .container {
-  background: #14253D;
+  background: #14253d;
   border: 1px solid none;
   border-radius: 10px;
   width: 326px;
   height: 546px;
   margin-top: 1em;
 }
+
 .container .nftimage {
   width: 278px;
   height: 269px;
@@ -25,50 +27,60 @@ body {
   background-size: cover;
   position: relative;
 }
-.container .infocontainer {
-  padding: 0px 1.4em;
-  color: white;
-}
-.container .infocontainer .stylehead {
+
+.container .stylehead {
   margin-top: 34px;
   font-weight: 600;
   font-size: 19px;
   line-height: 24px;
+  color: white;
 }
+
+.container .infocontainer {
+  padding: 0 1.4em;
+  color: white;
+}
+
 .container .infocontainer .infonft {
   font-weight: 400;
   font-size: 17px;
   line-height: 23px;
-  color: #8BACD9;
+  color: #8bacd9;
 }
+
 .container .infocontainer .nftnumbers {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .container .infocontainer .nftnumbers .infonftnum {
   display: flex;
-  color: #00FFF8;
+  color: #00fff8;
   gap: 5px;
   font-weight: 400;
 }
+
 .container .infocontainer .nftnumbers .infonftclock {
   display: flex;
-  color: #8BACD9;
+  color: #8bacd9;
   gap: 5px;
   font-weight: 400;
 }
+
 .container .infocontainer .line {
   border: 1px solid white;
   background: white;
   margin-top: 20px;
 }
+
 .container .infocontainer .infoavatar {
   display: flex;
   align-items: center;
   gap: 5px;
   margin-top: 1em;
 }
+
 .container .infocontainer .infoavatar .styleavatar {
   width: 33px;
 }
@@ -85,47 +97,54 @@ body {
     height: 592px;
     margin-top: 0;
   }
+
   .container .nftimage {
     left: 0%;
     top: 20px;
   }
+
   .container .infocontainer {
-    padding: 1.4em;
     color: white;
     margin: 7px;
   }
-  .container .infocontainer .stylehead {
-    margin-top: 24px;
-  }
+
   .container .infocontainer .nftnumbers {
     margin-top: 23px;
   }
+
   .container .infocontainer .infonft {
     font-size: 18px;
     line-height: 23px;
   }
+
   .container .infocontainer .infoavatar {
     margin-top: 21px;
     color: white;
   }
+
   .container .infocontainer .infoavatar .stylecreation {
-    color: #8BACD9;
+    color: #8bacd9;
   }
 }
+
+.stylehead:active {
+  color: #00fff8;
+}
+
+.stylenamenft:active {
+  color: #00fff8;
+}
+
 .nftimage:active .backgroundeyebrow {
   background-color: rgba(0, 200, 244, 0.3);
-  width: 278px;
-  height: 269px;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
   position: absolute;
   -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   background-image: url("./images/icon-view.svg");
   background-repeat: no-repeat;
-  background-position-x: 10px;
   background-position-x: 50%;
   background-position-y: 50%;
 }
-
-.stylenamenft:active, .stylehead:active {
-  color: #00FFF8;
-}/*# sourceMappingURL=style.css.map */
