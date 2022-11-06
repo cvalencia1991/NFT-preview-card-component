@@ -52,6 +52,7 @@ Users should be able to:
 
 I create the blur method for the NFT Card
 
+### Author
 
 👤 **Cesar Alberto Valencia Aguilar**
 
@@ -59,16 +60,16 @@ I create the blur method for the NFT Card
 - Twitter: [https://twitter.com/cvalenciaguilar](@cvalenciaguilar)
 - LinkedIn: [https://www.linkedin.com/in/cvalenciaguilar/](www.linkedin.com/in/cvalenciaguilar)
 
-## Show your support
+### Show your support
 
 Give a ⭐️ if you like this project!
 
-## 🤝 Contributing
+### 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/cvalencia1991/NFT-CARD/issues).
 
-## 📝 License
+### 📝 License
 
 This project is [MIT](./LICENSE) licensed.
