@@ -67,7 +67,7 @@ Give a ⭐️ if you like this project!
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/cvalencia1991/Math-magicians/issues).
+Feel free to check the [issues page](https://github.com/cvalencia1991/NFT-CARD/issues).
 
 ## 📝 License
 
